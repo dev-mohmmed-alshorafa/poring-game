@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  justify-content: center;
+}
+header {
+  width: 800px;
+  height: 500px;
+  background: rgb(70, 153, 62);
+  margin: auto;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+section {
+  margin: auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+}
+section div {
+  padding: 30px;
+  border: 3px solid rgb(241, 105, 15);
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  transition: all 0.07s ease;
+  width: 180px;
+  text-align: center;
+  font-size: 25px;
+  margin: 15px;
+}
+.poring {
+  transform: rotateY(180deg);
+  position: relative;
+}
+
+.playing {
+  border: 4px solid orange;
+  color: black;
+  background-color: rgb(241, 105, 15);
+  transform: scale(1.1);
+}
